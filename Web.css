@@ -1,0 +1,723 @@
+body{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+background-color: #17202A;
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    width: 100%;
+}
+
+/* Menu section */
+.Menu{
+    width: 100%;
+    height: 100px;
+    background-color: #151515;
+    font-family: 'Mitr', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: center;
+    /* border-radius: 10px 10px 0px 0px; */
+    color: white;
+    padding-right: 80px;
+
+}
+
+/* .Menu h4{
+    margin-right: 50px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900px;
+    font-size: medium;
+} */
+
+#menuButton{
+    height:40px;
+    width: 140px;
+    font-family: 'Comfortaa', cursive;
+    background-color: #151515;
+    color: white;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+    outline: none;
+    border: none;
+}
+
+#menuButton :hover{
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+#menuButton:before{
+transition: 0.5s all ease;
+position: absolute;
+top: 0;
+left: 50%;
+right: 50%;
+bottom: 0;
+opacity: 0;
+color: white;
+background-color:#D358F7 ;
+content: ""; 
+border-radius: 40px;
+
+}
+
+#menuButton:hover::before{
+    transition: 0.5s all ease;
+    left: 0;
+    right:0;
+    opacity: 1;
+    z-index: -1;
+    color:white ;
+}
+
+
+
+/* Cover section */
+.Introduction{
+    width: 100%;
+    height: 850px;
+    background-color: #151515;
+    display: flex;
+    flex-direction: row;
+    margin-top: -80px;
+}
+
+.rightText{
+    font-family: 'Mukta', sans-serif;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #CACFD2;
+}
+
+/* Hi i am */
+.rightText h2{
+    margin: 0px;
+    margin-left: 160px;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+/* Nguyen TRan Ha My name */
+#name {
+    margin-left: 160px;
+    margin-bottom: 40px;
+    animation: fill 0.5s ease forwards 3.5s;
+}
+
+#name path:nth-child(1){
+    stroke-dasharray: 264.2156066894531px;
+    stroke-dashoffset: 264.2156066894531px;
+    animation: line-anim 2s ease forwards;
+}
+
+#name path:nth-child(2){
+    stroke-dasharray: 276.41619873046875px;
+    stroke-dashoffset: 276.41619873046875px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+#name path:nth-child(3){
+    stroke-dasharray: 214.88064575195312px;
+    stroke-dashoffset: 214.88064575195312px ;
+    animation: line-anim 2s ease forwards 0.6s;
+
+}
+
+#name path:nth-child(4){
+    stroke-dasharray: 167px;
+    stroke-dashoffset: 167px ;
+    animation: line-anim 2s ease forwards 0.9s;
+
+}
+
+#name path:nth-child(5){
+    stroke-dasharray: 203;
+    stroke-dashoffset: 203 ;
+    animation: line-anim 2s ease forwards 1.2s;
+
+}
+
+#name path:nth-child(6){
+    stroke-dasharray: 264px;
+    stroke-dashoffset: 264px ;
+    animation: line-anim 2s ease forwards 1.5s;
+
+}
+
+#name path:nth-child(7){
+    stroke-dasharray: 151px;
+    stroke-dashoffset: 151px ;
+    animation: line-anim 2s ease forwards 1.8s;
+
+}
+
+#name path:nth-child(8){
+    stroke-dasharray: 238px;
+    stroke-dashoffset: 238px ;
+    animation: line-anim 2s ease forwards 2.1s;
+
+}
+
+#name path:nth-child(9){
+    stroke-dasharray: 214px;
+    stroke-dashoffset: 214px ;
+    animation: line-anim 2s ease forwards 2.4s;
+
+}
+
+#name path:nth-child(10){
+    stroke-dasharray: 264px;
+    stroke-dashoffset: 264px ;
+    animation: line-anim 2s ease forwards 2.7s;
+
+}
+
+#name path:nth-child(11){
+    stroke-dasharray: 237px;
+    stroke-dashoffset: 237px ;
+    animation: line-anim 2s ease forwards 1.2s;
+
+}
+
+#name path:nth-child(12){
+    stroke-dasharray: 214px;
+    stroke-dashoffset: 214px ;
+    animation: line-anim 2s ease forwards 0.9s;
+
+}
+
+#name path:nth-child(13){
+    stroke-dasharray: 328px;
+    stroke-dashoffset: 328px ;
+    animation: line-anim 2s ease forwards 0.6s;
+
+}
+
+#name path:nth-child(14){
+    stroke-dasharray: 167px;
+    stroke-dashoffset: 167px ;
+    animation: line-anim 2s ease forwards 0.3s;
+
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill{
+    from{
+        fill:#283747;
+    }
+
+    to {
+        fill :whitesmoke;
+    }
+}
+
+.rightText h5{
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Comfortaa', cursive;
+    margin-left: 160px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-right: 100px;
+
+}
+
+.major{
+    font-family: 'Comfortaa', cursive;
+    margin-left: 160px;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 100px;
+    color: #F1C40F;
+}
+
+.profileImage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundShadow {
+    width: 350;
+    height: 450px;
+    background-color: #F1C40F;
+    margin-top: -40px;
+    margin-right: 70px;
+}
+
+.profileImage img{
+width: 350px;
+height: 450px;
+object-fit: cover;
+margin-left: 30px;
+margin-top: 30px;
+margin-right: -30px;
+}
+
+/* About me section */
+.aboutMe{
+    height: 900px;
+    width: 100%;
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMeTitle{
+    font-family: 'Mukta', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 40px;
+     color: #F1C40F; 
+    font-weight: bold;
+    font-size: 47px;
+}
+
+.aboutContent{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    width: 55%;
+     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding-top: 35px;
+    /* padding-left: 150px; */
+}
+
+.infoContainer{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-left:  50px;
+    padding: 50px;
+}
+
+.infoContainer:hover .interactInfo{
+    background-position: -100% 0;
+     color: #341a3f; 
+    font-weight: 900;
+
+}
+
+.infoContainer:hover .infoContact{
+    color: #8E44AD;
+    
+}
+
+.infoContainer h1 {
+    display: inline;
+    font-family: 'Comfortaa', cursive;
+    font-size: 23px;
+    letter-spacing: .32px;
+    line-height: 30px;
+}
+
+.infoContainer h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 23px;
+    margin-top: 27px;
+    transition: .45s ease-in-out;    
+    color: #daaf06;
+    margin-bottom: 20px;
+}
+
+.interactInfo {
+    color: #4A235A;
+     background: linear-gradient(to right, rgba(255,255,255,0) 50%, #f3bf1294 50%); 
+    
+    background-size: 200%;
+    background-color: #f39d1200;
+    background-position: 0 0;
+    transition: .5s ease-in-out;
+   
+}
+
+.infoContainerShadow{
+    width: 70%;
+    height: 80%;
+    background-color: #8839a0;
+    margin-top: -50px;
+}
+
+.infoIcon{
+    width: 35px;
+    height: 35px;
+}
+
+.infoContactSec{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoContactSec div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.infoContactSec h3{
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#skillSection{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 45%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#skillSection p{
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.progressUnity{
+    width: 500px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 10px;
+
+}
+
+.progressUnity .progressBar{
+    width: 50%;
+    opacity: 0;
+    border-radius: 10px;
+    height: 15px;
+    position: relative;
+    transition: all .9s;
+    display: flex;
+    align-items: center;
+}
+
+#htmlBar{
+background-color: #BA4A00;
+}
+
+#cssBar{
+    background-color: #2E86C1;
+}
+
+#csBar{
+    background-color: #F39C12 ;
+}
+
+#cppBar{
+    background-color:#1ABC9C ;
+    
+}
+
+#unityBar{
+    background-color: #CB4335;
+    
+}
+
+#ueBar{
+    background-color: #28B463;
+    
+}
+
+#aiBar{
+    background-color: #DE3163;
+}
+
+.progressUnity span{
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-size: 13px;
+}
+
+/* More Infomation */
+.MoreInfo{
+    width: 100%;
+    height: auto;
+    background-color: #1C1C1C;
+}
+
+.MoreInfo{
+    display: flex;
+    flex-direction: row;
+}
+
+.languageAndHobby{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.activity{
+    width: 50%;
+    height: 500px;
+}
+
+/* Language Section */
+.language{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cirGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19px;
+
+}
+
+.cirGroup h2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.language h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.vietnamese{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.english{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 170px;
+
+}
+
+.languageAndHobby h1{
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    margin-left: 170px;
+     color: #F1C40F; 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* circular progress bar */
+#progressLang{
+    height: 200px;
+    width: 200px;
+}
+
+.circleTrack
+{
+    fill: transparent;
+    stroke-width: 15px;
+    stroke: gray;
+}
+
+.circleThumb{
+    fill: transparent;
+    stroke-width: 15px;
+    stroke-dasharray: 503px;
+    stroke-dashoffset: 503px;
+    transition: all 1.0s;
+    opacity: 0;
+    stroke-linecap: round;
+}
+
+.vietnameseLevel{
+    stroke: rgb(160, 231, 53);
+}
+
+.englishLevel{
+    stroke: rgb(36, 214, 214);
+}
+
+.experience{
+    width: 100%;
+    height: 700px;
+    background-color: #151515;
+}
+
+.activity h1{
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    margin-left: 170px;
+    color: #F1C40F;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Projects section */
+.projectsSection{
+    height: max-content;
+    width: 100%;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.projectTitle{
+    font-family: 'Mukta', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 40px;
+     color: #F1C40F; 
+    font-weight: bold;
+    font-size: 47px;
+}
+
+
+.projects{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rowTop{
+    margin-bottom: 150px;
+}
+
+.aProject{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectShadow{
+    background-color: #b3327d;
+    width: 25%;
+    height: 350px;
+    border-radius: 3px;
+}
+
+.aProject video{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.aProject h1{
+    display: inline;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    letter-spacing: .32px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.aProject h5{
+    display: inline;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    letter-spacing: .16px;
+    line-height: 16px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.aProject p{
+    display: inline;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    letter-spacing: .32px;
+    line-height: 30px;
+    margin-top: 1px;
+}
+
+.projectButton
+{
+    margin-top: 5px;
+   
+}
+
+.aProject button{
+    height: 30px;
+    width: 100px;
+    font-family: 'Comfortaa', cursive;
+    background-color: #662f86;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
