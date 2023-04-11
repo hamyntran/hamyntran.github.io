@@ -33,13 +33,6 @@ background-color: #17202A;
 
 }
 
-/* .Menu h4{
-    margin-right: 50px;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 900px;
-    font-size: medium;
-} */
-
 #menuButton{
     height:40px;
     width: 140px;
@@ -57,7 +50,6 @@ background-color: #17202A;
     color: white;
     cursor: pointer;
     border-radius: 40px;
-
 }
 
 #menuButton:before{
@@ -89,7 +81,7 @@ border-radius: 40px;
 /* Cover section */
 .Introduction{
     width: 100%;
-    height: 850px;
+    height: 100vh;
     background-color: #151515;
     display: flex;
     flex-direction: row;
@@ -281,7 +273,7 @@ margin-right: -30px;
 
 /* About me section */
 .aboutMe{
-    height: 900px;
+    height: 100vh;
     width: 100%;
     background-color: #1C1C1C;
     display: flex;
