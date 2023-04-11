@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2e5e045-7da3-49a8-a25e-093509cd2ef4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hamyntran.github.io.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials/MinionPH.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials/Yq3TeAvA.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Materials/gametrailer.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hamyntran.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hamyntran.github.io.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -35,12 +33,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c594dfc6-cb4d-4a26-8dd7-13e1072f7914" name="Changes" comment="" />
+      <changelist id="a2e5e045-7da3-49a8-a25e-093509cd2ef4" name="Changes" comment="" />
       <created>1681190742495</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681190742495</updated>
       <workItem from="1681190760770" duration="2364000" />
+      <workItem from="1681213416262" duration="1031000" />
     </task>
     <servers />
   </component>
