@@ -1,439 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ha My</title>
-    
-        <!-- <link rel="stylesheet" href="Web.css"> -->
-    
-    
-        <link rel="stylesheet" href="./Web.css">
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-    </head>
-    
-    <body>
-        <div class="all">
-    
-            <!-- Menu -->
-            <div class="Menu">
-                <!-- <h4>This is menu</h4> -->
-                <a href="#home">
-                    <button class="button1" id="menuButton">HOME</button>
-                </a>
-    
-                <a href="#aboutMe">
-                    <button class="button2" id="menuButton">ABOUT</button>
-                </a>
-    
-                <a href="#projects">
-                    <button class="button3" id="menuButton">PROJECTS</button>
-                </a>
-    
-            </div>
-    
-            <!-- Body -->
-            <div id="home" class="Introduction">
-                <div class="rightText">
-                    <h2> Hi! I'm</h2>
-                    <svg id="name" width="659" height="49" viewBox="0 0 659 49" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M38.344 47H31.048L9.09599 13.784V47H1.79999V2.456H9.09599L31.048 35.608V2.456H38.344V47Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ha My</title>
+
+    <!-- <link rel="stylesheet" href="Web.css"> -->
+
+
+    <link rel="stylesheet" href="./Web.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="all">
+
+    <!-- Menu -->
+    <div class="Menu">
+        <!-- <h4>This is menu</h4> -->
+        <a href="#home">
+            <button class="button1" id="menuButton">HOME</button>
+        </a>
+
+        <a href="#aboutMe">
+            <button class="button2" id="menuButton">ABOUT</button>
+        </a>
+
+        <a href="#projects">
+            <button class="button3" id="menuButton">PROJECTS</button>
+        </a>
+
+    </div>
+
+
+    <!-- Body -->
+    <div id="home" class="Introduction">
+
+        <video autoplay loop muted playsinline class="hightlightVideo">
+            <source src="Materials/MinionPH.mp4" type="video/mp4">
+        </video>
+
+        <div class="rightText">
+            <div class="homeTextShadow">
+                <h2> Hi! I'm</h2>
+                <svg id="name" width="659" height="49" viewBox="0 0 659 49" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M38.344 47H31.048L9.09599 13.784V47H1.79999V2.456H9.09599L31.048 35.608V2.456H38.344V47Z"
+                          stroke="white" stroke-width="3"/>
+                    <path
                             d="M80.117 15.32C78.965 13.1013 77.365 11.4373 75.317 10.328C73.269 9.176 70.901 8.6 68.213 8.6C65.269 8.6 62.645 9.26134 60.341 10.584C58.037 11.9067 56.2237 13.784 54.901 16.216C53.621 18.648 52.981 21.464 52.981 24.664C52.981 27.864 53.621 30.7013 54.901 33.176C56.2237 35.608 58.037 37.4853 60.341 38.808C62.645 40.1307 65.269 40.792 68.213 40.792C72.181 40.792 75.4023 39.6827 77.877 37.464C80.3516 35.2453 81.8663 32.2373 82.421 28.44H65.717V22.616H90.229V28.312C89.7597 31.768 88.5223 34.9467 86.517 37.848C84.5543 40.7493 81.973 43.0747 78.773 44.824C75.6157 46.5307 72.0956 47.384 68.213 47.384C64.0316 47.384 60.213 46.424 56.757 44.504C53.301 42.5413 50.549 39.832 48.501 36.376C46.4957 32.92 45.493 29.016 45.493 24.664C45.493 20.312 46.4957 16.408 48.501 12.952C50.549 9.496 53.301 6.808 56.757 4.888C60.2557 2.92533 64.0743 1.944 68.213 1.944C72.949 1.944 77.1516 3.11733 80.821 5.464C84.533 7.768 87.221 11.0533 88.885 15.32H80.117Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M104.657 2.52V30.872C104.657 34.2427 105.532 36.7813 107.281 38.488C109.073 40.1947 111.548 41.048 114.705 41.048C117.905 41.048 120.38 40.1947 122.129 38.488C123.921 36.7813 124.817 34.2427 124.817 30.872V2.52H132.113V30.744C132.113 34.3707 131.324 37.4427 129.745 39.96C128.166 42.4773 126.054 44.3547 123.409 45.592C120.764 46.8293 117.841 47.448 114.641 47.448C111.441 47.448 108.518 46.8293 105.873 45.592C103.27 44.3547 101.201 42.4773 99.665 39.96C98.129 37.4427 97.361 34.3707 97.361 30.744V2.52H104.657Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M174.572 2.52L159.852 30.872V47H152.556V30.872L137.772 2.52H145.9L156.204 24.344L166.508 2.52H174.572Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M187.658 8.408V21.464H203.018V27.416H187.658V41.048H204.938V47H180.362V2.456H204.938V8.408H187.658Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M250.469 47H243.173L221.221 13.784V47H213.925V2.456H221.221L243.173 35.608V2.456H250.469V47Z"
-                            stroke="white" stroke-width="3" />
-                        <path d="M305.411 2.52V8.472H293.571V47H286.275V8.472H274.371V2.52H305.411Z" stroke="white"
-                            stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path d="M305.411 2.52V8.472H293.571V47H286.275V8.472H274.371V2.52H305.411Z" stroke="white"
+                          stroke-width="3"/>
+                    <path
                             d="M335.904 47L325.664 29.208H320.096V47H312.8V2.52H328.16C331.573 2.52 334.453 3.11733 336.8 4.312C339.189 5.50667 340.96 7.10667 342.112 9.112C343.307 11.1173 343.904 13.3573 343.904 15.832C343.904 18.7333 343.051 21.3787 341.344 23.768C339.68 26.1147 337.099 27.7147 333.6 28.568L344.608 47H335.904ZM320.096 23.384H328.16C330.891 23.384 332.939 22.7013 334.304 21.336C335.712 19.9707 336.416 18.136 336.416 15.832C336.416 13.528 335.733 11.736 334.368 10.456C333.003 9.13333 330.933 8.472 328.16 8.472H320.096V23.384Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M380.053 37.912H361.43L358.229 47H350.613L366.549 2.456H374.997L390.934 47H383.254L380.053 37.912ZM378.005 31.96L370.773 11.288L363.478 31.96H378.005Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M434.406 47H427.111L405.159 13.784V47H397.862V2.456H405.159L427.111 35.608V2.456H434.406V47Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M496.133 2.52V47H488.836V27.544H467.909V47H460.612V2.52H467.909V21.592H488.836V2.52H496.133Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M532.554 37.912H513.93L510.729 47H503.113L519.049 2.456H527.497L543.433 47H535.753L532.554 37.912ZM530.505 31.96L523.273 11.288L515.977 31.96H530.505Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M613.836 2.52V47H606.539V16.536L592.971 47H587.916L574.284 16.536V47H566.987V2.52H574.859L590.476 37.4L606.028 2.52H613.836Z"
-                            stroke="white" stroke-width="3" />
-                        <path
+                            stroke="white" stroke-width="3"/>
+                    <path
                             d="M656.385 2.52L641.665 30.872V47H634.369V30.872L619.585 2.52H627.713L638.017 24.344L648.321 2.52H656.385Z"
-                            stroke="white" stroke-width="3" />
-                    </svg>
-                    <h5>I am a third year student at British Univeristy Vietnam. My major is</h5>
-                    <h5 class="major">Computer Games Design and Programming. </h5>
-                </div>
-    
-                <div class="profileImage">
-                    <div class="backgroundShadow">
-                        <img src="Materials/2022-05-26 22-37-01_5308.jpg" alt="">
-                    </div>
-                </div>
-    
+                            stroke="white" stroke-width="3"/>
+                </svg>
+                <h5>I am a third year student at British Univeristy Vietnam. My major is</h5>
+                <h5 class="major">Computer Games Design and Programming. </h5>
             </div>
-    
-            <!-- About Me -->
-            <section id="aboutMe" class="aboutMe">
-                <!-- Title -->
-                <h2 class="aboutMeTitle">ABOUT ME</h2>
-    
-                <!-- Content -->
-                <div class="aboutContent">
-    
-                    <!-- Infomation -->
-                    <div class="info">
-                        <div class="infoContainerShadow">
-                            <div class="infoContainer">
-                                <h1>Hi! I am </h1>
-                                <h1 class="interactInfo">Nguyen Tran Ha My. </h1>
-                                <h1>I was born on </h1>
-                                <h1 class="interactInfo">23/10/2002 </h1>
-                                <h1>in </h1>
-                                <h1 class="interactInfo">Vietnam. </h1>
-                                <h1>I graduated from </h1>
-                                <h1 class="interactInfo">Vietduc Highschool </h1>
-                                <h1>since 2020 and am currently a </h1>
-                                <h1 class="interactInfo">Computer Games Design and Programming </h1>
-                                <h1>student at </h1>
-                                <h1 class="interactInfo">British University Vietnam.</h1>
-    
-    
-                                <h2 class="infoContact">You can contact me at: </h2>
-    
-                                <div class="infoContactSec">
-                                    <!-- <div>
-                                        <img class="infoIcon" src="./whatsapp.svg" alt="">
-                                        <h3>Phone number: 0377793203</h3>
-                                    </div> -->
-    
-                                    <div>
-                                        <img class="infoIcon" src="./gmail.svg" alt="">
-                                        <h3>Gmail: nguyentranhamy2002@gmail.com</h3>
-                                    </div>
-    
-                                    <!-- <div>
-                                        <img class="infoIcon" src="./facebook.svg" alt="">
-                                        <h3>Facebook: Hà My (Bê)</h3>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-    
-                    <!-- Skill -->
-                    <div id="skillSection">
-    
-                        <div>
-                            <p>HTML</p>
-                            <div class="progressUnity">
-                                <div class="progressBar" data-progress="25" id="htmlBar">
-                                    <span>25%</span>
-                                </div>
-                            </div>
-    
-                        </div>
-    
-                        <div>
-                            <p>CSS</p>
-                            <div class="progressUnity">
-                                <div class="progressBar" data-progress="25" id="cssBar">
-                                    <span>25%</span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div>
-                            <p>C#</p>
-                            <div class="progressUnity">
-                                <div class="progressBar" data-progress="30" id="csBar">
-                                    <span>30%</span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div>
-                            <p>C++</p>
-                            <div class="progressUnity">
-                                <div class="progressBar" data-progress="30" id="cppBar">
-                                    <span>30%</span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div>
-                            <p>Unity</p>
-                            <div class="progressUnity">
-                                <div class="progressBar" data-progress="55" id="unityBar">
-                                    <span>55%</span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div>
-                            <p>Unreal Engine</p>
-                            <div class="progressUnity">
-                                <div class="progressBar" data-progress="40" id="ueBar">
-                                    <span>40%</span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div>
-                            <p>Git</p>
-                            <div class="progressUnity">
-                                <div class="progressBar" data-progress="35" id="aiBar">
-                                    <span>35%</span>
-                                </div>
-                            </div>
-                        </div>
-    
-    
-                    </div>
-    
-                </div>
-    
-            </section>
-    
-            <!-- More About Section -->
-            <!-- 
-            <section class="MoreInfo">
-    
-                <div class="languageAndHobby">
-    
-                   //Language
-                    <h1>Language</h1>
-                    <div class="language" id="language">
-    
-                        <div  class="vietnamese" >
-                            <div class="cirGroup">
-                                <svg id="progressLang">
-                                    <circle class="circleTrack" cx="50%" cy="50%" r="40%"> </circle>
-                                    <circle class="circleThumb vietnameseLevel" cx="50%" cy="50%" r="80px"  data-progress="90"> 90%</circle>
-                                </svg>
-                                <h2>90%</h2>
-                            </div>
-                           
-                            <h3>Vietnamese</h3>
-                            <h3>Native language</h3>
-                        </div>
-    
-                         <div class="english">
-                             <div class="cirGroup">
-                                <svg id="progressLang">
-                                    <circle class="circleTrack" cx="50%" cy="50%" r="40%"> </circle>
-                                    <circle class="circleThumb englishLevel" cx="50%" cy="50%" r="80px"  data-progress="55"></circle>
-                                </svg>
-                                <h2>55%</h2>
-                             </div>
-    
-                            <h3>English</h3>
-                            <h3>IELTS: 6.5</h3>
-                        </div> 
-                    </div>
-    
-                    //Hobby
-                    <div class="hobby"></div>
-                </div>
-    
-                <div class="activity">
-                    <h1>Activity</h1>
-                </div>
-    
-            </section>    
-            / -->
-    
-            <section id="projects" class="projectsSection">
-                <!-- Title -->
-                <h2 class="projectTitle">PROJECTS</h2>
-    
-                <div class="projects">
-                    <div class="projectsRow rowTop">
-                        <div class="projectShadow">
-                            <div class="aProject">
-                                <video width="100%" src="Materials/platformer.mp4" controls autoplay></video>
-                                <h1>2D Platformer Prototyping (Unity) </h1>
-                                <p>[Individual first year School project]</p>
-    
-                                <h5> This platformer was my very first 2D Prototyping project, which was also an assignment of mine in first year </h5>
-    
-                                <!-- <div class="projectButton">
-                                    <a href="https://drive.google.com/file/d/13g3XIFitzw4_9DlQalxvBCSX9NcNu9cW/view?usp=sharing">
-                                        <button>Project file </button>
-                                    </a>
-    
-                                </div> -->
-    
-    
-                            </div>
-    
-                        </div>
-    
-                        <div class="projectShadow">
-                            <div class="aProject">
-                                <video width="100%" src="Materials/topdown.mp4" controls autoplay></video>
-                                <h1>2D Topdown Shooter Prototyping (Unity) </h1>
-                                <p>[Individual first year School project]</p>
-                                
-                                <h5> This is my second time prototyping a 2D game using Unity. The project is made in a week </h5>
-    
-    
-                             <!-- <div class="projectButton">
-                                 <a href="https://drive.google.com/file/d/1xPAyIYelI30E5g2uKyVpUU2Zinf4VICg/view?usp=sharing">
-                                    <button>Project file </button>
-                                 </a>
-    
-                                </div> -->
-                            </div>
-    
-                        </div>
-    
-                        <div class="projectShadow">
-                            <div class="aProject">
-                                <!-- <video width="100%" src="Materials/Cooking.mp4" controls autoplay></video> -->
-                                <img width="100%" src="Materials/Judah Game Jamming's BUV Game Jam 2022 Submission by Quan Nguyen - Google Chrome 12_07_2022 22_13_55.png" alt="">
-                                <h1>Starstruck (Unity) </h1>
-                                <p>[Game Jam Team project]</p>
-    
-                                <h5> This is where I started putting more effort on the commenting and OOP. The project is still in progress </h5>
-    
-                                <div class="projectButton">
-                                    <a href="https://quangamedev.itch.io/judah-game-jammings-buv-game-jam-2022-submission">
-                                        <button>Play WebGL</button>
-                                    </a>
-    
-                                </div>
-                            </div>
-    
-                        </div>
-                    </div>
-    
-                    <div class="projectsRow rowTop">
-                        <div class="projectShadow">
-                            <div class="aProject">
-                                <video width="100%" height="60%" src="Materials/mario.mp4" controls autoplay></video>
-                                <h1>Mario (C++) </h1>
-                                <p>[Individual first year School project]</p>
-    
-                                <h5>This game is different from the rest of mine as it started from scratch. I wrote the game engine using C++ and apply OOP in it</h5>
-    
-                                <div class="projectButton">
-                                    <a href="https://drive.google.com/file/d/1L3xVZte0d-nsevve70RN9oRs94Ptt5oJ/view?usp=sharing">
-                                        <button>Project folder </button>
-                                    </a>
-                                </div>
-                            </div>
-    
-                        </div>
-    
-                        <div class="projectShadow">
-                            <div class="aProject">
-                                <video width="100%" src="Materials/horror.mp4" controls autoplay></video>
-                                <h1>Horror (Unreal Engine) </h1>
-                                <p>[Individual first year School project]</p>
-    
-                                <h5>This horror game is my first completed game using UE4. The project includes sound, art, level, content, UI and tutorials </h5>
-    
-                                <div class="projectButton">
-                                    <a href="https://drive.google.com/file/d/1fEl17oExw2omghp8y4KVGxYYLpYWRm2d/view?usp=sharing">
-                                        <button>Build file </button>
-                                    </a>
-    
-                                </div>
-    
-                            </div>
-    
-                        </div>
-    
-                        <div class="projectShadow">
-                            <div class="aProject">
-                                <video width="100%" src="Materials/environment.mp4" controls autoplay></video>
-                                <h1>CTF environment (Unreal Editor)</h1>
-                                <p>[Individual first year School project]</p>
-    
-                                <h5>During the progress and testing sections, I gained more experience in making levels that is strategic, creative as well as suitable with the game gerne</h5>
-    
-                                <div class="projectButton">
-    
-                                </div>
-                            </div>
-    
-                        </div>
-                    </div>
-    
-                    <!-- <div class="projectsRow">
-                        <div class="projectShadow">
-                            <div class="aProject">
-                                <video width="100%"  src="Materials/Tank.mp4" controls autoplay></video>
-                                <h1>Topdown Tank (Unreal Engine)</h1>
-                                <p>[Individual second year School project]</p>
-    
-                                <h5>This project produces required assets for a complete strategy tank game.     </h5>
-    
-                                <div class="projectButton">
-                                    <a href="">
-                                        <button>Project file </button>
-                                    </a>
-    
-                                </div>
-                            </div>
-    
-                        </div> -->
-    
-                        <!-- <div class="projectShadow">
-                            <div class="aProject">
-                                <video width="100%" src="Materials/Boardgame.mp4" controls autoplay></video>
-                                <h1>Boardgame (TableTop Simulator )</h1>
-                                <p>[Individual second year School project]</p>
-    
-                                <h5> This is a pitch video of my board game, which is in progress. </h5>
-    
-                            </div>
-    
-                        </div> -->
-    
-                       
-                    </div>
-    
-    
-                </div>
-    
-    
-    
-    
-            </section>
-    
         </div>
-    
-    
-        <script src="./Web.js"></script>
-    </body>
-    
+
+<!--        <div class="profileImage">
+            <div class="backgroundShadow">
+                <img src="Materials/2022-05-26 22-37-01_5308.jpg" alt="">
+            </div>
+        </div>-->
+
+
+    </div>
+
+    <!-- About Me -->
+    <section id="aboutMe" class="aboutMe">
+        <!-- Title -->
+        <h2 class="aboutMeTitle">ABOUT ME</h2>
+
+        <!-- Content -->
+        <div class="aboutContent">
+
+            <!-- Infomation -->
+            <div class="info">
+                <div class="infoContainerShadow">
+                    <div class="infoContainer">
+                        <h1>Hi! I am </h1>
+                        <h1 class="interactInfo">Nguyen Tran Ha My. </h1>
+                        <h1>I was born on </h1>
+                        <h1 class="interactInfo">23/10/2002 </h1>
+                        <h1>in </h1>
+                        <h1 class="interactInfo">Vietnam. </h1>
+                        <h1>I graduated from </h1>
+                        <h1 class="interactInfo">Vietduc Highschool </h1>
+                        <h1>since 2020 and am currently a </h1>
+                        <h1 class="interactInfo">Computer Games Design and Programming </h1>
+                        <h1>student at </h1>
+                        <h1 class="interactInfo">British University Vietnam.</h1>
+
+
+                        <h2 class="infoContact">You can contact me at: </h2>
+
+                        <div class="infoContactSec">
+                            <!-- <div>
+                                <img class="infoIcon" src="./whatsapp.svg" alt="">
+                                <h3>Phone number: 0377793203</h3>
+                            </div> -->
+
+                            <div>
+                                <img class="infoIcon" src="./gmail.svg" alt="">
+                                <h3>Gmail: nguyentranhamy2002@gmail.com</h3>
+                            </div>
+
+                            <!-- <div>
+                                <img class="infoIcon" src="./facebook.svg" alt="">
+                                <h3>Facebook: Hà My (Bê)</h3>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Skill -->
+            <div id="skillSection">
+
+                <div>
+                    <p>HTML</p>
+                    <div class="progressUnity">
+                        <div class="progressBar" data-progress="25" id="htmlBar">
+                            <span>25%</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <p>CSS</p>
+                    <div class="progressUnity">
+                        <div class="progressBar" data-progress="25" id="cssBar">
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>C#</p>
+                    <div class="progressUnity">
+                        <div class="progressBar" data-progress="30" id="csBar">
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>C++</p>
+                    <div class="progressUnity">
+                        <div class="progressBar" data-progress="30" id="cppBar">
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Unity</p>
+                    <div class="progressUnity">
+                        <div class="progressBar" data-progress="55" id="unityBar">
+                            <span>55%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Unreal Engine</p>
+                    <div class="progressUnity">
+                        <div class="progressBar" data-progress="40" id="ueBar">
+                            <span>40%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Git</p>
+                    <div class="progressUnity">
+                        <div class="progressBar" data-progress="35" id="aiBar">
+                            <span>35%</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- More About Section -->
+    <!-- 
+    <section class="MoreInfo">
+
+        <div class="languageAndHobby">
+
+           //Language
+            <h1>Language</h1>
+            <div class="language" id="language">
+
+                <div  class="vietnamese" >
+                    <div class="cirGroup">
+                        <svg id="progressLang">
+                            <circle class="circleTrack" cx="50%" cy="50%" r="40%"> </circle>
+                            <circle class="circleThumb vietnameseLevel" cx="50%" cy="50%" r="80px"  data-progress="90"> 90%</circle>
+                        </svg>
+                        <h2>90%</h2>
+                    </div>
+                   
+                    <h3>Vietnamese</h3>
+                    <h3>Native language</h3>
+                </div>
+
+                 <div class="english">
+                     <div class="cirGroup">
+                        <svg id="progressLang">
+                            <circle class="circleTrack" cx="50%" cy="50%" r="40%"> </circle>
+                            <circle class="circleThumb englishLevel" cx="50%" cy="50%" r="80px"  data-progress="55"></circle>
+                        </svg>
+                        <h2>55%</h2>
+                     </div>
+
+                    <h3>English</h3>
+                    <h3>IELTS: 6.5</h3>
+                </div> 
+            </div>
+
+            //Hobby
+            <div class="hobby"></div>
+        </div>
+
+        <div class="activity">
+            <h1>Activity</h1>
+        </div>
+
+    </section>    
+    / -->
+
+    <section id="projects" class="projectsSection">
+        <!-- Title -->
+        <h2 class="projectTitle">PROJECTS</h2>
+
+        <div class="projects">
+            <div class="projectsRow rowTop">
+                <div class="projectShadow">
+                    <div class="aProject">
+                        <video width="100%" src="Materials/platformer.mp4" controls autoplay></video>
+                        <h1>2D Platformer Prototyping (Unity) </h1>
+                        <p>[Individual first year School project]</p>
+
+                        <h5> This platformer was my very first 2D Prototyping project, which was also an assignment of
+                            mine in first year </h5>
+
+                        <!-- <div class="projectButton">
+                            <a href="https://drive.google.com/file/d/13g3XIFitzw4_9DlQalxvBCSX9NcNu9cW/view?usp=sharing">
+                                <button>Project file </button>
+                            </a>
+
+                        </div> -->
+
+
+                    </div>
+
+                </div>
+
+                <div class="projectShadow">
+                    <div class="aProject">
+                        <video width="100%" src="Materials/topdown.mp4" controls autoplay></video>
+                        <h1>2D Topdown Shooter Prototyping (Unity) </h1>
+                        <p>[Individual first year School project]</p>
+
+                        <h5> This is my second time prototyping a 2D game using Unity. The project is made in a
+                            week </h5>
+
+
+                        <!-- <div class="projectButton">
+                            <a href="https://drive.google.com/file/d/1xPAyIYelI30E5g2uKyVpUU2Zinf4VICg/view?usp=sharing">
+                               <button>Project file </button>
+                            </a>
+
+                           </div> -->
+                    </div>
+
+                </div>
+
+                <div class="projectShadow">
+                    <div class="aProject">
+                        <!-- <video width="100%" src="Materials/Cooking.mp4" controls autoplay></video> -->
+                        <img width="100%"
+                             src="Materials/Judah Game Jamming's BUV Game Jam 2022 Submission by Quan Nguyen - Google Chrome 12_07_2022 22_13_55.png"
+                             alt="">
+                        <h1>Starstruck (Unity) </h1>
+                        <p>[Game Jam Team project]</p>
+
+                        <h5> This is where I started putting more effort on the commenting and OOP. The project is still
+                            in progress </h5>
+
+                        <div class="projectButton">
+                            <a href="https://quangamedev.itch.io/judah-game-jammings-buv-game-jam-2022-submission">
+                                <button>Play WebGL</button>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="projectsRow rowTop">
+                <div class="projectShadow">
+                    <div class="aProject">
+                        <video width="100%" height="60%" src="Materials/mario.mp4" controls autoplay></video>
+                        <h1>Mario (C++) </h1>
+                        <p>[Individual first year School project]</p>
+
+                        <h5>This game is different from the rest of mine as it started from scratch. I wrote the game
+                            engine using C++ and apply OOP in it</h5>
+
+                        <div class="projectButton">
+                            <a href="https://drive.google.com/file/d/1L3xVZte0d-nsevve70RN9oRs94Ptt5oJ/view?usp=sharing">
+                                <button>Project folder</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="projectShadow">
+                    <div class="aProject">
+                        <video width="100%" src="Materials/horror.mp4" controls autoplay></video>
+                        <h1>Horror (Unreal Engine) </h1>
+                        <p>[Individual first year School project]</p>
+
+                        <h5>This horror game is my first completed game using UE4. The project includes sound, art,
+                            level, content, UI and tutorials </h5>
+
+                        <div class="projectButton">
+                            <a href="https://drive.google.com/file/d/1fEl17oExw2omghp8y4KVGxYYLpYWRm2d/view?usp=sharing">
+                                <button>Build file</button>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="projectShadow">
+                    <div class="aProject">
+                        <video width="100%" src="Materials/environment.mp4" controls autoplay></video>
+                        <h1>CTF environment (Unreal Editor)</h1>
+                        <p>[Individual first year School project]</p>
+
+                        <h5>During the progress and testing sections, I gained more experience in making levels that is
+                            strategic, creative as well as suitable with the game gerne</h5>
+
+                        <div class="projectButton">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- <div class="projectsRow">
+                <div class="projectShadow">
+                    <div class="aProject">
+                        <video width="100%"  src="Materials/Tank.mp4" controls autoplay></video>
+                        <h1>Topdown Tank (Unreal Engine)</h1>
+                        <p>[Individual second year School project]</p>
+
+                        <h5>This project produces required assets for a complete strategy tank game.     </h5>
+
+                        <div class="projectButton">
+                            <a href="">
+                                <button>Project file </button>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div> -->
+
+            <!-- <div class="projectShadow">
+                <div class="aProject">
+                    <video width="100%" src="Materials/Boardgame.mp4" controls autoplay></video>
+                    <h1>Boardgame (TableTop Simulator )</h1>
+                    <p>[Individual second year School project]</p>
+
+                    <h5> This is a pitch video of my board game, which is in progress. </h5>
+
+                </div>
+
+            </div> -->
+
+
+        </div>
+
+
+</div>
+
+
+</section>
+
+</div>
+
+
+<script src="./Web.js"></script>
+</body>
+
 </html>
