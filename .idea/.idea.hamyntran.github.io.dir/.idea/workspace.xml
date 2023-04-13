@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2e5e045-7da3-49a8-a25e-093509cd2ef4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.hamyntran.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hamyntran.github.io.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="a2e5e045-7da3-49a8-a25e-093509cd2ef4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +36,7 @@
       <workItem from="1681190760770" duration="2364000" />
       <workItem from="1681213416262" duration="6507000" />
       <workItem from="1681366722349" duration="2165000" />
+      <workItem from="1681369238250" duration="3287000" />
     </task>
     <servers />
   </component>
