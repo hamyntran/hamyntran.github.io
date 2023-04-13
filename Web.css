@@ -363,14 +363,14 @@ border-radius: 40px;
 .infoContainer h1 {
     display: inline;
     font-family: 'Comfortaa', cursive;
-    font-size: 23px;
+    font-size: 18px;
     letter-spacing: .32px;
     line-height: 30px;
 }
 
 .infoContainer h2 {
     font-family: 'Comfortaa', cursive;
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 27px;
     transition: .45s ease-in-out;    
     color: #daaf06;
